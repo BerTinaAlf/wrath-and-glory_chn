@@ -1,19 +1,24 @@
 # Translation: 中文 [Wrath & Glory]
 
-This Foundry VTT module provides Chinese localization for the
-Warhammer 40,000: Wrath & Glory system.
+这是一个 Foundry VTT 汉化模组，为 `Warhammer 40,000: Wrath & Glory`
+游戏系统提供中文翻译。
 
-## Compatibility
+## 兼容性
 
-- Foundry VTT: 13-14
-- Wrath & Glory system: 7.5.3
+- Foundry VTT：13-14
+- Wrath & Glory 系统：7.5.3
 
-## Usage
+## 安装
 
-Install the module into Foundry VTT, enable it in your world, and select
-`中文` as the language in Foundry's settings.
+在 Foundry VTT 的「安装模块」中使用以下 Manifest URL：
 
-## Files
+```text
+https://raw.githubusercontent.com/BerTinaAlf/wrath-and-glory_chn/main/module.json
+```
 
-- `module.json`: Foundry module manifest
-- `cn.json`: Chinese localization file
+安装后，在世界中启用本模组，并在 Foundry 的语言设置中选择 `中文`。
+
+## 文件说明
+
+- `module.json`：Foundry 模组声明文件
+- `cn.json`：中文语言文件
