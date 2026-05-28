@@ -616,34 +616,34 @@
   "TableSetting.complicationConsequences": "并发症后果",
   "WH": {
     "Trigger": {
-      "preTakeDamage": "Pre-Take Damage",
-      "preApplyDamage": "Pre-Apply Damage",
-      "computeDamage": "Compute Damage",
-      "preComputeDamage": "Pre-Compute Damage",
-      "takeDamage": "Take Damage",
-      "applyDamage": "Apply Damage",
+      "preTakeDamage": "承受伤害前",
+      "preApplyDamage": "应用伤害前",
+      "computeDamage": "计算伤害",
+      "preComputeDamage": "计算伤害前",
+      "takeDamage": "承受伤害",
+      "applyDamage": "应用伤害",
       "rollTest": "投掷检定",
-      "preRollTest": "Pre-Roll Test",
-      "preRollWeaponTest": "Pre-Roll Weapon Test",
-      "rollWeaponTest": "Roll Weapon Test",
-      "preRollPowerTest": "Pre-Roll Power Test",
-      "rollPowerTest": "Roll Power Test"
+      "preRollTest": "投掷检定前",
+      "preRollWeaponTest": "武器检定前",
+      "rollWeaponTest": "武器检定",
+      "preRollPowerTest": "灵能检定前",
+      "rollPowerTest": "灵能检定"
     },
     "Models": {
       "ability": {
         "FIELDS": {
           "cost": {
-            "label": "Cost"
+            "label": "花费"
           },
           "requirements": {
             "label": "要求"
           },
           "display": {
-            "label": "Show in Combat",
-            "hint": "Show Item in the Actor's Combat Tab"
+            "label": "在战斗中显示",
+            "hint": "在角色的战斗页中显示该物品"
           },
           "abilityType": {
-            "label": "Type"
+            "label": "类型"
           }
         }
       },
@@ -656,24 +656,24 @@
             "label": "XP"
           },
           "influence": {
-            "label": "Influence"
+            "label": "影响力"
           }
         }
       },
       "armour": {
         "FIELDS": {
           "rating": {
-            "label": "Rating"
+            "label": "等级"
           },
           "invulnerable": {
-            "label": "Invulnerable"
+            "label": "不易受损"
           }
         }
       },
       "ascension": {
         "FIELDS": {
           "cost": {
-            "label": "Cost"
+            "label": "花费"
           },
           "requirements": {
             "label": "要求"
@@ -719,39 +719,39 @@
       "talent": {
         "FIELDS": {
           "cost": {
-            "label": "Cost"
+            "label": "花费"
           },
           "requirements": {
             "label": "要求"
           },
           "display": {
-            "label": "Show in Combat",
-            "hint": "Show Item in the Actor's Combat Tab"
+            "label": "在战斗中显示",
+            "hint": "在角色的战斗页中显示该物品"
           }
         }
       },
       "weapon": {
         "FIELDS": {
           "category": {
-            "label": "Category"
+            "label": "种类"
           },
           "salvo": {
-            "label": "Salvo"
+            "label": "齐射"
           },
           "range": {
             "melee": {
-              "label": "Range"
+              "label": "射程"
             },
             "thrown": {
-              "label": "Thrown S ×"
+              "label": "投掷 S ×"
             }
           },
           "twinned": {
-            "label": "Twinned"
+            "label": "双联"
           },
           "combi": {
             "id": {
-              "label": "Combi"
+              "label": "组合"
             }
           }
         }
@@ -765,19 +765,19 @@
             "label": "先决条件"
           },
           "activation": {
-            "label": "Activation"
+            "label": "激活"
           },
           "duration": {
-            "label": "Duration"
+            "label": "持续时间"
           },
           "dn": {
             "label": "DN"
           },
           "range": {
-            "label": "Range"
+            "label": "射程"
           },
           "multiTarget": {
-            "label": "Multi-Target"
+            "label": "多目标"
           },
           "keywords": {
             "label": "关键词"
@@ -789,14 +789,14 @@
       "test": {
         "FIELDS": {
           "self": {
-            "label": "Self Test",
-            "hint": "This Test is intended to be rolled by the owner."
+            "label": "自身检定",
+            "hint": "此检定应由拥有者投掷。"
           },
           "dn": {
             "label": "DN"
           },
           "type": {
-            "label": "Type"
+            "label": "类型"
           }
         }
       },
@@ -819,7 +819,7 @@
       "damage": {
         "FIELDS": {
           "enabled": {
-            "label": "Enable Damage"
+            "label": "启用伤害"
           }
         }
       }
