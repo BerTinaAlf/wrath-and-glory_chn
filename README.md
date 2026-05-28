@@ -10,7 +10,7 @@
 
 ## 安装
 
-在 Foundry VTT 的「安装模块」中使用以下 Manifest URL：
+在 Foundry VTT 的「安装模组」中使用以下 Manifest URL：
 
 ```text
 https://raw.githubusercontent.com/BerTinaAlf/wrath-and-glory_chn/main/module.json
